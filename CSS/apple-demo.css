@@ -1,0 +1,236 @@
+:root {
+    --color-primary:#333;
+    --color-seconadry: #dae6e9;
+    --color-bgMain:#261725;
+    --color-blue: #2b8ad7;
+    --color-pink:rgb(255, 105, 198);
+    --color-footer:#000000;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: var(--color-seconadry);
+   
+    
+}
+
+body h1 {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateX(50px);
+    margin-bottom: 0px;
+}
+
+.anchor-nav {
+    transform: translateX(50px);
+}
+
+.anchor-nav .anchor-content {
+    font-size: 1.2rem ;
+    margin-right: 15px;
+    display: inline;
+    text-decoration: none;
+    
+}
+
+.sub-class-white{
+    color: var(--color-seconadry);
+}
+
+.sub-class-anchor-pink{
+    color: var(--color-pink);
+    margin-bottom: 0px;
+    margin: 15px;
+}
+
+.sub-class-anchor-blue {
+    color: var(--color-blue);
+    display: inline;
+}
+
+.wrapper {
+    display: block;
+    width: 100%;
+    background-color: var(--color-seconadry);
+}
+
+.apple-header {
+    display: block;
+
+}
+
+.navigation-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+    width: 100%;
+    background-color: var(--color-primary);
+    padding-top: 5px;
+    
+}
+
+.logo{
+    margin-left: 100px;
+}
+
+.bag {
+    margin-right: 100px;
+}
+
+.navigation-bar a {
+    color: var(--color-seconadry);
+    text-decoration: none;
+    font-size: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header-display {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.header-display img {
+    margin-top: 40px;
+    width: 550px;
+}
+
+.apple-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:var(--color-bgMain);
+    opacity: .9;
+}
+
+.text-plus-plus {
+    font-size: 15rem;
+    font-weight: normal;
+    padding: 130px 0px 35px 0px;
+    color: var(--color-primary);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-plus {
+    font-size: 15rem;
+    font-weight: normal;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    color: var(--color-seconadry);
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.mobile-two {
+    width:100%;
+    height: auto;
+    padding-top: 80px;
+    
+}
+
+.apple-footer {
+    display: block;
+    background-color: var(--color-footer);
+    opacity: .9;
+    
+}
+
+.links-to {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    font-size: .8rem;
+    opacity: .8;
+    
+}
+
+.links-to article {
+    margin-top: 20px;
+    display: block;
+   
+}
+
+.links-to article h3 {
+    text-align: start;
+    color: var(--color-seconadry);
+    margin-left: 20px;
+    text-decoration: none;
+}
+.links-to .footer-anchor {
+    display: block;
+    color: var(--color-seconadry);
+    margin-left:20px ;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+.others {
+    margin-top: 30px;
+    margin-left: 20px;
+    opacity: .8;
+}
+
+.others hr {
+    border-top: 1px solid var(--color-seconadry);
+    margin: 10px 0px;
+    margin-right: 10px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    opacity: .5;
+}
+.others p {
+    color: var(--color-seconadry);
+    font-size: .8rem;
+}
+
+.inner-anchor {
+    color :var(--color-blue);
+}
+
+.lower-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: .8;
+}
+
+
+.c-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--color-seconadry);
+    font-size: .8rem;
+    padding-bottom: 20px;
+    }
+
+    .c-right p{
+        margin-left: 20px;
+    }
+
+    .c-right a {
+        text-decoration: none;
+        color: var(--color-seconadry);
+        margin-left: 70px;
+    }
+
+.anchor-country {
+    text-decoration: none;
+    color: var(--color-seconadry);
+    margin-left: 150px;
+    width: fit-content;
+    margin-right: 20px;
+}
+
+
