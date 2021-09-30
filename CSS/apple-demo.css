@@ -256,7 +256,7 @@ body h1 {
 
 .nav-part {
     background-color: var(--color-primary);
-    padding: 8px 0px;
+    padding: 12px 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -264,14 +264,13 @@ body h1 {
 }
 
 .nav-list-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
 }
 
 .nav-list-container li {
-    list-style: none;
+    list-style-type: none;
+    margin-right: 50px;
     
 }
 
@@ -323,9 +322,9 @@ body h1 {
 }
 
 .text-plus-plus {
-    font-size: 15rem;
-    font-weight: normal;
-    padding: 130px 0px 35px 0px;
+    font-size: 10rem;
+    font-weight: 700;
+    padding: 130px 0px 80px 0px;
     color: var(--color-primary);
     font-family: Arial, Helvetica, sans-serif;
 }
