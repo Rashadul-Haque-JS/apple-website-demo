@@ -7,6 +7,10 @@
   --color-footer: #000000;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
   margin: 0px;
   padding: 0px;
