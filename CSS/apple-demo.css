@@ -293,7 +293,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--color-bgMain);
+    background-color:var(--color-bgMain);
     opacity: 0.9;
   }
 
